@@ -15,7 +15,7 @@
     margin: 0 auto;
     width: 100%;
 }
-
+/* ROW CHE CONTENGONO LE COL */
 .row {
     display: flex;
     flex-direction: row;
@@ -24,9 +24,13 @@
 
 /* Seleziona tutte le parole che inziano con COL*/
 [class^="col-"] {
-   flex-grow: 1;
+   flex-grow: 0;
    flex-shrink: 0;
    flex-basis: auto;
+}
+
+.col{
+    flex-grow: 1;
 }
 
 /* COLONNE CHE OCCUPANO LO SPAZIO IN BASE AI 12ESIMI */
@@ -91,7 +95,7 @@
     max-width: 100%;
 }
 
-/* OFFSETS , SPAZIATURE */
+OFFSETS , SPAZIATURE
 .offset-1 {
     margin-left: calc(100% / 12);
 }
