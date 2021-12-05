@@ -1,0 +1,11 @@
+.col{
+    height: 100px;
+    background-color:dodgerblue;
+    border:2px solid greenyellow
+}
+
+[class^="col-"] {
+    height: 100px;
+    background-color:dodgerblue;
+    border:2px solid greenyellow
+ }
