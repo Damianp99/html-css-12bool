@@ -7,5 +7,14 @@
 [class^="col-"] {
     height: 100px;
     background-color:dodgerblue;
-    border:2px solid greenyellow
+    border:2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .nested{
+ height: 50px;
+ background-color: coral;
+ border: 2px solid white;
  }
